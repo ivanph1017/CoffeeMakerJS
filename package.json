@@ -1,0 +1,25 @@
+{
+  "name": "coffeemaker",
+  "version": "1.0.0",
+  "description": "Coffee maker script written in Javascript for Raspberry PI 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanph1017/CoffeeMakerJS.git"
+  },
+  "keywords": [
+    "coffeemaker",
+    "coffee",
+    "raspberry"
+  ],
+  "author": "Ivan Palomares",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/ivanph1017/CoffeeMakerJS#readme",
+  "dependencies": {
+    "firebase": "^4.12.0",
+    "onoff": "^2.0.0"
+  }
+}
