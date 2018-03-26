@@ -1,6 +1,6 @@
-var data = require('./data/data.js'), // data package
-    pin = require('./pin/pin.js'), // pin package
-    prep = require('./prep/prep.js'); // prep(ration) package
+var data = require('./data/data.js'), // data module
+    pin = require('./pin/pin.js'), // pin module
+    prep = require('./prep/prep.js'); // prep(ration) module
 
 // Set up
 Promise.all([

@@ -1,5 +1,5 @@
 var Gpio = require('onoff').Gpio, // include onoff to interact with the GPIO
-    coffeeMakerPin = new Gpio(4, 'out'), // use GPIO pin 2 as coffee maker, and specify that it is output
+    coffeeMakerPin = new Gpio(4, 'out'), // use GPIO pin 4 as coffee maker, and specify that it is output
     sensorLvl0Pin = new Gpio(17, 'in'), // use GPIO pin 17 as sensor level 0, and specify that it is input
     sensorLvl2Pin = new Gpio(27, 'in'), // use GPIO pin 27 as sensor level 2, and specify that it is input
     cacheWaterLevel = 0; 

@@ -1,4 +1,4 @@
-var data = require('../data/data.js'), // data package
+var data = require('../data/data.js'), // data module
     startSleep = 0,
     sleepTimer = null;
 

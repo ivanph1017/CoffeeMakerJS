@@ -1,15 +1,16 @@
 const ON = 0, // on
       OFF = 1; // off
 
-var data = require('../data/data.js'), // data package
-    pin = require('../pin/pin.js'), // pin package
-    sleep = require('../sleep/sleep.js'), // sleep package
+var data = require('../data/data.js'), // data module
+    pin = require('../pin/pin.js'), // pin module
+    sleep = require('../sleep/sleep.js'), // sleep module
     turnOn = OFF,
     startTurnOn = 0,
     prepTimer = null;
 
 function setUp() {
     module.exports.turnOn = ON;
+    turnOn = ON;
     // turn on coffee maker
     pin.coffeeMaker.write(turnOn).then((value) => {
         Promise.all([
@@ -63,6 +64,7 @@ function checkPrepTimer() {
 
 function stopPrepTimer() {
     module.exports.turnOn = OFF;
+    turnOn = OFF;
     // turn off coffee maker
     pin.coffeeMaker.write(turnOn).then((value) => {
         clearInterval(prepTimer), // it stops the prepTimer()
