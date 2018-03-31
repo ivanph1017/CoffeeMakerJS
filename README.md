@@ -16,7 +16,7 @@ The full list of devices required are below:
 
 -	Android smartphone
 -	Raspberry PI 3
--	2-relay module
+-	Relay module
 -	Coffee maker
 -	Breadboard
 -	2 float ball liquid sensor
@@ -27,9 +27,9 @@ The full list of devices required are below:
 
 Then, the circuits should look like the image below:
 
-![Circuit](https://raw.githubusercontent.com/ivanph1017/AssetsRepo/master/CoffeeMaker/circuit.png)
+![Circuit](https://raw.githubusercontent.com/ivanph1017/AssetsRepo/master/CoffeeMaker/circuit%20with%20raspberry%20pi%203.png)
 
-The 2-module relay is like our switch, it can open or close the electric circuit of the coffee maker. In other words, it's the device that turns on/off our machine. For more details of how a relay works, follow the next link:
+The relay module is like our switch, it can open or close the electric circuit of the coffee maker. In other words, it's the device that turns on/off our machine. For more details of how a relay works, follow the next link:
 
 -	[Introduction to relays (Spanish)](https://www.inventable.eu/introduccion-a-los-reles/)
 
